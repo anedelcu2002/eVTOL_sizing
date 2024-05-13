@@ -1,8 +1,8 @@
 import numpy as np
 import openmdao.api as om
 
-from evtolsizing.components_prop import PowerHover, PowerForwardEdgewise, PowerForwardWithWing
-from evtolsizing.components_weight import PropulsionWeight, WingWeight
+from components_prop import PowerHover, PowerForwardEdgewise, PowerForwardWithWing
+from components_weight import PropulsionWeight, WingWeight
 
 class EnergyConsumption(om.Group):
     """

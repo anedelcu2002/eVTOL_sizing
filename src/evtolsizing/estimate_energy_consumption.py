@@ -10,7 +10,7 @@ Then, I compute the energy consumption of each UAV to fly the missions.
 import numpy as np
 import matplotlib.pyplot as plt
 import openmdao.api as om
-from evtolsizing.sizing_groups import EnergyConsumption
+from sizing_groups import EnergyConsumption
 
 if __name__ == '__main__':
     # ======================================

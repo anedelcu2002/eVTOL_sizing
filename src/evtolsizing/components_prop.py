@@ -1,8 +1,8 @@
 import numpy as np
 import openmdao.api as om
 
-from evtolsizing.components_aero import WingedCruiseDrag, BodyDrag
-from evtolsizing.utils import SoftMax
+from components_aero import WingedCruiseDrag, BodyDrag
+from utils import SoftMax
 
 # ------------------------------
 # Power estimation components
